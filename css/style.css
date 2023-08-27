@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: #013243;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.logo_img {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.flex_section {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 25px;
+}
+
+.heading h1 {
+  font-size: 8em;
+  color: #32f5c8;
+  font-family: Sen;
+  margin-left: -10px;
+}
+
+.paragraph p {
+  font-size: 1.5em;
+  color: #a9bdc6;
+  font-family: Inter;
+  font-weight: 300;
+}
+
+.button button {
+  color: #013243;
+  background: #32f5c8;
+  padding: 20px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 1.5em;
+  font-family: Inter;
+  font-weight: 500;
+}
+
+.follow-flex h3 {
+  color: #a9bdc6;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
+.follow-flex {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.image_1 {
+  position: absolute;
+  right: 69px;
+  top: 230px;
+  z-index: -1;
+}
+
+.image_2 {
+  position: absolute;
+  top: -70px;
+  right: 50px;
+}
+
+.image_3 {
+  position: absolute;
+  top: 0;
+  left: -110px;
+  z-index: -1;
+}
+.image_4 {
+  position: absolute;
+  right: 145px;
+  bottom: -59px;
+}
+.image_5 {
+  position: absolute;
+  top: 0;
+  right: 240px;
+  z-index: -1;
+}
+.heading h1 span {
+  position: relative;
+}
+
+.heading h1 img {
+  position: absolute;
+  right: 400px;
+  top: 242px;
+}
+@media (max-width: 768px) {
+  .heading h1 {
+    font-size: 6em;
+  }
+  .flex_section {
+    margin-top: 200px;
+  }
+  .image_3 {
+    top: -200px;
+    left: 0;
+  }
+  .image_2 {
+    top: -270px;
+    right: -30px;
+  }
+  .image_5 {
+    top: -60px;
+    right: 45px;
+  }
+  .heading h1 img {
+    right: -30px;
+    top: 160px;
+  }
+
+  .follow-flex {
+    margin-top: 100px;
+  }
+  .image_4 {
+    right: 0px;
+    bottom: -80px;
+  }
+  .image_1 {
+    right: -70px;
+    top: 22px;
+  }
+}
+
+@media (max-width: 425px) {
+  .heading h1 {
+    font-size: 4em;
+  }
+  .paragraph p {
+    font-size: 1em;
+  }
+  .button button {
+    font-size: 1em;
+  }
+  .image_1 {
+    display: none;
+  }
+  .image_4 {
+    display: none;
+  }
+  .image_5 {
+    display: none;
+  }
+  .heading h1 img {
+    right: 0px;
+    top: 260px;
+    z-index: -1;
+  }
+  .flex_section {
+    margin-top: 100px;
+  }
+  .follow-flex {
+    margin-top: 150px;
+  }
+  .image_3 {
+    top: -110px;
+    left: 30px;
+  }
+  .image_2 {
+    top: -110px;
+    right: -75px;
+    z-index: -1;
+  }
+}
